@@ -14,7 +14,8 @@ Each backup is **labeled for easy identification**. To manage storage, if the nu
 
 The diagram below illustrates how the components interact to provide automated multi-volume backups:
 
-![Automated Hourly Backups](Automated Hourly Backups.drawio.png)
+![Automated Hourly Backups](Automated_Hourly_Backups.drawio.png)
+
 
   * **Terraform Deployment**: Resources such as storage pools, volumes, backup vaults, and API configurations are deployed using Terraform.
   * **Scheduled Trigger**: Cloud Scheduler triggers the Cloud Function via a Pub/Sub topic based on a defined cron schedule.
