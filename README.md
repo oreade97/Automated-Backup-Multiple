@@ -129,5 +129,3 @@ Contributions are welcome\! If you have any suggestions, improvements, or bug fi
 ## Summary
 
 This solution effectively leverages a CSV file to enable automated multi-volume backups for NetApp. The Cloud Function reads the CSV, creates backups for each listed volume, and enforces a retention policy by deleting the oldest backups when the maximum number is exceeded.
-
-Happy backing up\!
