@@ -67,6 +67,7 @@ Navigate to the `Terraform Files` folder. Create a `.tfvars` file to store the f
 | `region`                    | The region where NetApp resources exist and the function will be deployed   |
 | `service_account_key_file`  | The file containing your service account keys                               |
 | `backup_schedule`           | Frequency and time of backup in cron format (e.g., `0 0 * * *` for daily) |
+| `volume_path`           | path to the CSV file e.g, "volumes.csv" |
 
 **Important**: For multi-volume backup functionality, the volume name and backup vault name are now determined by the CSV file. Therefore, the `volume_name` and `backup_vault_name` variables are no longer used.
 
